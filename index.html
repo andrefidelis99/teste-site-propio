@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguagens Front-End</title>
+    <link rel="stylesheet" href="estilos/mobile-first.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Back-end</h1>
+        <p>Quais são as pricipais linguagens por trás do front-end? Veja um pouco mais sobre aqui abaixo.</p>
+    </header>      
+    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+    <menu id="itens">
+        <h2>Clique para saber mais!</h2>
+        <ul>
+            <a href="https://www.hostinger.com.br/tutoriais/diferenca-entre-html-e-html5" target="_blank">
+                <li"><img src="imagens/logo-html.png" alt="logo-html" class="imagens"></li>
+            </a>
+            <a href="https://www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css" target="_blank">
+                <li"><img src="imagens/logo-css.png" alt="logo-css" class="imagens"></li>
+            </a>
+            <a href="https://www.hostinger.com.br/tutoriais/o-que-e-javascript" target="_blank">
+                <li"><img src="imagens/logo-js.png" alt="logo-js" class="imagens" id="js"></li>
+            </a>
+        </ul>
+    </menu>
+
+    <h2 id="sec">
+        Conhecendo as linguagens.
+    </h2>
+
+    <ul>
+        <li class="info">HTML5 - linguagem de Marcação
+
+        </li>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum veniam dolorem iusto assumenda vero reiciendis rerum eos. Aspernatur, doloribus reprehenderit? Eos quia non nisi pariatur tenetur totam aperiam explicabo odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis labore nostrum quibusdam facilis maxime, dolore porro voluptatem quos praesentium accusamus iusto obcaecati provident minima, beatae eos! Iusto, tenetur cupiditate.
+        </p>
+        <img src="https://www.w3docs.com/uploads/media/default/0001/05/805cddb75d8fdc035886bc8d78487eef8b3845bb.png" alt="img-html" class="explicacao">
+        <li class="info">CSS - Folhas de Estilo
+
+        </li>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum veniam dolorem iusto assumenda vero reiciendis rerum eos. Aspernatur, doloribus reprehenderit? Eos quia non nisi pariatur tenetur totam aperiam explicabo odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis labore nostrum quibusdam facilis maxime, dolore porro voluptatem quos praesentium accusamus iusto obcaecati provident minima, beatae eos! Iusto, tenetur cupiditate.
+
+        </p>
+        <img src="https://www.w3docs.com/uploads/media/default/0001/05/6d07a36ebe6d55273b39440f2391f1d7e6d4092a.png" alt="img-css" class="explicacao">
+        <li class="info">JavaScript - Lingagem de Programação
+
+        </li>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum veniam dolorem iusto assumenda vero reiciendis rerum eos. Aspernatur, doloribus reprehenderit? Eos quia non nisi pariatur tenetur totam aperiam explicabo odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti officiis labore nostrum quibusdam facilis maxime, dolore porro voluptatem quos praesentium accusamus iusto obcaecati provident minima, beatae eos! Iusto, tenetur cupiditate.
+
+        </p>
+        <img src="https://www.w3docs.com/uploads/media/default/0001/05/4482fe09d95a0be765154b9cefff5e07f7fc32ff.png" alt="img-js" class="explicacao">
+    </ul>
+    <footer>
+        <p>Site criado por André Fidelis! Para um teste</p>
+    </footer>
+</body>
+
+<script>
+    function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+</script>
+</html>
