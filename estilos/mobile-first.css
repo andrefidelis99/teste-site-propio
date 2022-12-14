@@ -34,10 +34,8 @@ menu ul{
     list-style-type: none;
     }
 
-li {
-    display: inline-block;
-    padding: 0px 10px 0px 10px;
-}
+
+     
 
 span#burguer {
     display: block;
